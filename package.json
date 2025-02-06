@@ -1,0 +1,32 @@
+{
+  "name": "nicholes-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@mantine/core": "7.16.2",
+    "@mantine/hooks": "7.16.2",
+    "@mantine/vanilla-extract": "7.16.2",
+    "@p5-wrapper/react": "^4.4.2",
+    "@tabler/icons-react": "^3.29.0",
+    "@vanilla-extract/css": "^1.16.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vanilla-extract/vite-plugin": "^5.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1"
+  },
+  "packageManager": "yarn@4.6.0"
+}
