@@ -16,7 +16,7 @@ export async function generateDesire(
     content: `
 Good afternoon AI, you've heard of p5.js right? The JavaScript library that allows you to easily make art and designs in JS?
 
-Yeah that's the one - you're so smart. Okay, you're gonna be given the p5 instance and and some instructions on what you're supposed to create with p5. And you're gonna out put the javascript code using that p5 instance that would be getting pasted in the p5's draw callback function.
+Yeah that's the one - you're so smart. Okay, you're gonna be given the p5 instance and and some instructions on what you're supposed to create with p5. And you're gonna output the javascript code using that p5 instance that would be getting pasted in the p5's draw callback function.
 It'll basically go like this:
 (p5: P5CanvasInstance) => {
       p5.setup = () => p5.createCanvas(width, height, p5.WEBGL);
@@ -27,12 +27,13 @@ It'll basically go like this:
     }
 
 Btw, don't use p5.width or p5.height, the width is ${width} and height is ${height}. Any functions need to be called on the p5 instance, like p5.fill(139, 69, 19);
-All I want you to do is output your code in plain text. Please do NOT wrap it in \`\`\`javascript or anything like that. Just plain text. And ONLY the code that goes inside the draw function. No setup function code. Just the code inside draw function.
+All I want you to do is output your code in plain text. Please do NOT wrap it in \`\`\`javascript or anything like that. Just plain text. And ONLY the code that goes inside the draw function. No setup function code - just the code inside draw function.
 
 You ready? Okay here's your instructions on what you need to draw:
 
 ${desire}
 
+# Output:
 `.trim(),
     model: 'gpt-4o',
   };

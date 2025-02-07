@@ -23,7 +23,7 @@ export function Welcome() {
           <Anchor href='https://react.dev/' target='_blank' size='lg'>
             React
           </Anchor>{' '}
-          application, using the{' '}
+          application using the{' '}
           <Anchor href='https://mantine.dev/' target='_blank' size='lg'>
             Mantine
           </Anchor>{' '}
@@ -34,8 +34,8 @@ export function Welcome() {
           .
         </Text>
         <Text>
-          To get started edit <Code>./App.tsx</Code>, <Code>./common/**</Code>, and{' '}
-          <Code>./components/**</Code>.
+          To get started edit <Code>./App.tsx</Code>, <Code>./components/**</Code>, and{' '}
+          <Code>./utils/**</Code>.
         </Text>
       </Text>
     </>
